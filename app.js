@@ -13,7 +13,7 @@ const generateHTML = (pokemons) =>
 
     accumulator += `
   <li class="card ${elementsTypes[0]}">
-  <img class="card-image" alt="${name}" src="https://cdn.traction.one/pokedex/pokemon/${id}.png" />
+  <img class="card-image" alt="${name}" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png" />
   <h2 class="card-title">${id}. ${name}</h2>
   <p class="card-subtitle">${elementsTypes.join(" | ")}</p>
   </li>
